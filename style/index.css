@@ -1,0 +1,51 @@
+
+/* purgecss start ignore */
+
+@import url('./utils.css');
+
+@tailwind base;
+
+@tailwind components;
+
+
+.long-space{
+    @apply w-full flex relative h-auto
+}
+
+.heading{
+    @apply text-xl  font-bold
+}
+
+.sub-heading{
+    @apply text-lg  font-bold
+}
+
+.btn{
+    @apply border-black h-10  border-2 p-1 font-bold cursor-pointer 
+}
+
+/* Small (sm) */
+@media (min-width: 640px) { /* ... */ }
+
+/* Medium (md) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+
+.heading{
+    @apply text-6xl
+}
+
+.sub-heading{
+    @apply text-3xl
+}
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { /* ... */ }
+/* purgecss end ignore */
+
+@tailwind utilities;
